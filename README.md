@@ -16,3 +16,15 @@ dependencies {
     implementation 'com.github.Ct7Liang:SignatureView:1.0'
 }
 ```
+
+##### Use:
+```
+<com.android.ct7liang.signaturelib.view.SignatureView
+    android:id="@+id/sign_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+SignatureView signatureView = findViewById(R.id.sign_view);
+signatureView.clear(); //清理
+signatureView.save(); //保存
+```
